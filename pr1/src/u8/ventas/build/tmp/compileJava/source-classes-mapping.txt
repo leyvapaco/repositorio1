@@ -1,0 +1,15 @@
+U8/JSON/ventas_retrofit/DetalleVenta.java
+ U8.JSON.ventas_retrofit.DetalleVenta
+U8/JSON/ventas_retrofit/principal_retrofit.java
+ U8.JSON.ventas_retrofit.principal_retrofit
+U8/JSON/ventas_retrofit/CentralDeVentas.java
+ U8.JSON.ventas_retrofit.CentralDeVentas
+U8/JSON/ventas/DetalleVenta.java
+ U8.JSON.ventas.DetalleVenta
+U8/JSON/ventas_retrofit/Venta.java
+ U8.JSON.ventas_retrofit.Venta
+U8/JSON/ventas/Venta.java
+ U8.JSON.ventas.Venta
+U8/JSON/ventas/principal.java
+ U8.JSON.ventas.principal
+ U8.JSON.ventas.principal$1
