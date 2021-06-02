@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input{
+            margin: 2px;
+        }
+
+        .verde{
+            border: 3px solid green;
+        }
+
+        .rojo{
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Kill team</legend>
+        <form name="formulario" id="formulario" method="get">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre"><br>
+            <label for="anyo">Año:</label>
+            <input type="number" name="anyo" id="anyo"><br>
+            <label for="habilidades">Habilidades:</label>
+            <input name="habilidades" type="text" id="habilidades"><br>
+            <label for="tirada">Tirada para herir:</label>
+            <input name="tirada" type="text" id="tirada"><br>
+            <label for="rol">Rol:</label>
+            <select name="rol" id="rol">
+                <option value="" selected="selected"></option>
+                <option value="lider">Líder</option>
+                <option value="combate">Combate</option>
+                <option value="comunicaciones">Comunicaciones</option>
+                <option value="demoliciones">Demoliciones</option>
+                <option value="fanatico">Fanático</option>
+            </select><br>
+            <label for="password">Password:</label>
+            <input name="password" type="password" id="password"><br>
+            <input type="reset" name="reset" id="reset" value="Limpiar"><br>
+            <input type="submit" name="submit" id="submit" value="Enviar"><br>
+        </form>
+        <div id="errores"></div>
+        <div id="ultima_tirada"></div>
+    </fieldset>
+</body>
+
+</html>
