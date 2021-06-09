@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <label for="comunidad_autonomas">CC.AA.:</label>
+    <select name="comunidad_autonomas" id="comunidad_autonoma">
+    </select>
+    <span>D. Entregadas:</span>
+    <input type="number" name="" id="dosis_entregadas">
+    <span>D. Admin:</span>
+    <input type="number" name="" id="dosis_administradas">
+    <span>D. Completa:</span>
+    <input type="number" name="" id="dosis_completas">
+    <span>P. Entregadas:</span>
+    <input type="number" name="" id="porcentaje_entregadas">
+    <span>P. Admin:</span>
+    <input type="number" name="" id="porcentaje_administradas">
+    <span>P. Completa:</span>
+    <input type="number" name="" id="porcentaje_completa">
+    <button id="modificar_datos">Modificar datos</button>
+    <hr>
+    <div>Resultados</div>
+    <div id="div_dinamico"></div>
+    <hr>
+    <h1>Tabla de vacunación</h1>
+    <button id="boton_xml">Cargar datos vacunación (XMLHttpRequest)</button>
+    <button id="boton_fetch">Cargar datos vacunación (Fetch)</button>
+    <div id="tabla"></div>
+</body>
+</html>
