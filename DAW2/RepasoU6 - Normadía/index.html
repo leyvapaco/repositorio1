@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Rocio del Real Entregable U6-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="script.js" defer></script>
+    <style>
+        img {
+            width: 100px;
+        }
+
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p id="root">
+        <button type="button" onclick="peticionXHR()">XMLHttpRequest</button>
+        <button type="button" onclick="peticionFetch()">Fetch</button>
+        <select id="tipoBando" onchange="crearTabla()">
+            <option value="1">Aliados</option>
+            <option value="2">Eje</option>
+        </select>
+    </p>
+
+    <div id="responseDiv"></div>
+</body>
+
+</html>
